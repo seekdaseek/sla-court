@@ -1,0 +1,14 @@
+{
+  "name": "sla-court",
+  "version": "0.1.0",
+  "description": "SLA court for paid x402 APIs on GenLayer",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test:signer": "node --test tests/sla/signer.test.mjs"
+  },
+  "dependencies": {
+    "genlayer-js": "^1.1.8"
+  }
+}
